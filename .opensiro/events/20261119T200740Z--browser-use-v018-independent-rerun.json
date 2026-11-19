@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "20261119T200740Z--browser-use-v018-independent-rerun",
+  "recorded_at": "2026-11-19T20:07:40Z",
+  "actor": "OpenSiro AI research executor (owner-directed Upstream #58)",
+  "kind": "CHECKPOINT",
+  "decision": "INDEPENDENT_RERUN; PROPOSAL_GO; NEEDS_EVIDENCE; S3*=— -> S3*=C; PERSISTED",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58",
+    "https://github.com/browser-use/browser-use/commit/ccbdb8095fbaf903c748880a600054a34c7b6191",
+    "https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/br/browser-use.md",
+    "https://github.com/browser-use/browser-use/pull/6414",
+    "https://github.com/browser-use/browser-use/pull/6415",
+    "https://github.com/browser-use/browser-use/pull/6446"
+  ],
+  "note": "Independent first-pass current v0.18 review before reading historical fork case; source-first S3* proposal is consistent with earlier case, but current v0.18 GO/NEEDS_EVIDENCE explicitly distinguishes proposal decision from unrun tests, original shipped judge from independent auditor, and validates caller-side counterfactual. No external original/public fork Issue or PR, no native tests or measured savings.",
+  "next_action": "Read back 4 case files, event and owner state by exact commit; post only internal OpenSiro issue/PR status. External publication needs separate exact approval."
+}

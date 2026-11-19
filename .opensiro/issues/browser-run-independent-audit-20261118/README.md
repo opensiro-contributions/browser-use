@@ -1,11 +1,10 @@
-# Browser Use — independent browser-run audit roadmap
+# Browser Use — Upstream #58 source-first v0.18 rerun
 
-**Case:** browser-run-independent-audit-20261118  
-**Date:** 2026-11-18  
-**Original:** [browser-use/browser-use](https://github.com/browser-use/browser-use), frozen head ccbdb8095fbaf903c748880a600054a34c7b6191  
-**Decision:** PLAN_ONLY / DECISION_READY (conditional).  
-**Publication:** Fork metadata only. No public Issue/PR, no upstream publication, no implementation; fork Issues disabled.
-
-Files: [Human Issue](https://github.com/opensiro-contributions/browser-use/blob/opensiro/meta/.opensiro/issues/browser-run-independent-audit-20261118/issue.md) · [AI/developer contract](https://github.com/opensiro-contributions/browser-use/blob/opensiro/meta/.opensiro/issues/browser-run-independent-audit-20261118/constructor-sufficiency.md) · [Acceptance](https://github.com/opensiro-contributions/browser-use/blob/opensiro/meta/.opensiro/issues/browser-run-independent-audit-20261118/constructor-acceptance.md) · [Capability Roadmap Receipt](https://github.com/opensiro-contributions/browser-use/blob/opensiro/meta/.opensiro/issues/browser-run-independent-audit-20261118/roadmap.md) · [Unpublished original-Issue draft](https://github.com/opensiro-contributions/browser-use/blob/opensiro/meta/.opensiro/issues/browser-run-independent-audit-20261118/external-issue-draft.md).
-
-The accepted historical VSM vector is **S1=A / S2=— / S3=— / S3*=— / S4=— / S5=—** ([pinned Index](https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/br/browser-use.md)); target P0 is **S3*=C**, P1 evidence and authority prerequisites, P2 NONE. Do not interpret target as a new grade or automatic promotion to A(P). Latest first-party 1.0 source already ships a judge; original PRs #6414/#6415/#6446 are unmerged and overlap the proposed evidence substrate. Original reviewer authority and independent release/hold remain a proposed hypothesis. Savings **NOT_MEASURED**.
+- Original: https://github.com/browser-use/browser-use/commit/ccbdb8095fbaf903c748880a600054a34c7b6191
+- Accepted Index: https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/br/browser-use.md (included, 2026-09-15; historical S1=A, all others —)
+- Fork: opensiro-contributions/browser-use at opensiro/meta, owner ACTIVE/ALLOW
+- Case identity: browser-run-independent-audit-20261118; **existing case updated**, not a second roadmap
+- v0.18 independent re-run 2026-11-19: **GO / NEEDS_EVIDENCE** for proposal-stage **S3*=— -> S3*=C**; P1 evidence and native overlap; P2 NONE. Validation NOT_RUN; cost NOT_MEASURED.
+- Exact canonical [roadmap.md](roadmap.md) · [Human issue.md](issue.md) · [AI constructor-sufficiency.md](constructor-sufficiency.md) · prior [constructor-acceptance.md](constructor-acceptance.md) and [external-issue-draft.md](external-issue-draft.md) kept for historical context, NOT PUBLISHED.
+- Prior 2026-11-18 PLAN_ONLY / conditional DECISION_READY case was compared only after this new source-first decision and agrees on S3* candidate; the new v0.18 verdict is explicit, source-corrected for updated open PR heads and anchored to a minimum caller-side wrapper falsifier.
+- No native tests, product code, public fork GitHub Issue/PR, original Issue/PR/comment, new Index grade or measured benefit is asserted. Exact outward-publication owner approval remains separate.
