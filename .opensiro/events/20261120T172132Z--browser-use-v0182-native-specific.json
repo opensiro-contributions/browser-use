@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "20261120T172132Z--browser-use-v0182-native-specific",
+  "recorded_at": "2026-11-20T17:21:32Z",
+  "actor": "OpenSiro ChatGPT agent (owner-directed Upstream #58)",
+  "kind": "CHECKPOINT",
+  "case_id": "browser-run-independent-audit-20261118",
+  "decision": "SAME_CASE_NATIVE_SPECIFIC_REVIEW; PLAN_ONLY; PROPOSAL_GO; NEEDS_EVIDENCE; S3*=— -> S3*=C; PERSISTENCE_READY",
+  "source_original_sha": "ccbdb8095fbaf903c748880a600054a34c7b6191",
+  "accepted_index_blob_sha": "ae39d03d98023d1da055f3b7c215cdbad4009273",
+  "accepted_index_review_ref": "50f205533fe10ba35b553d2a3689c77b87bd5d0a",
+  "protocol_sha": "5d004be0000bc6ecb7be62be4584318e8afcf315",
+  "meta_parent_sha": "2e04ba2d4ff0e040286a51a150224b6e0c9e03a3",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7045800953",
+    "https://github.com/browser-use/browser-use/commit/ccbdb8095fbaf903c748880a600054a34c7b6191",
+    "https://github.com/browser-use/browser-use/blob/ccbdb8095fbaf903c748880a600054a34c7b6191/browser_use/agent/service.py",
+    "https://github.com/browser-use/browser-use/blob/ccbdb8095fbaf903c748880a600054a34c7b6191/browser_use/agent/views.py",
+    "https://github.com/browser-use/browser-use/pull/6452",
+    "https://github.com/browser-use/browser-use/pull/6457"
+  ],
+  "note": "Same stable v0.18 case sharpened for actual Browser Use Agent._run evidence-before-shutdown, AgentHistoryList, nonblocking same-model _judge, independently delegated S3* ACCEPT/HOLD/REQUEST_REWORK and opt-in verified delivery; cheaper caller-side review/withhold remains falsifier. Canonical Human eight-section + AI six-section v0.18.2 templates now filled; both upstream structural validators PASS locally before commit. No new Index grade or product code.",
+  "tests": "NATIVE_NOT_RUN; structural_case_PASS; roadmap_publication_template_PASS; git_diff_check_PASS",
+  "external_publication": "NOT_PUBLISHED",
+  "cost": "NOT_MEASURED",
+  "previous_event_id": "20261119T200740Z--browser-use-v018-independent-rerun",
+  "next_action": "Verify exact fork commit SHA and read back metadata; release #58 reservation with internal completion pointer. Third-party/public fork communication only after separate exact consent."
+}
